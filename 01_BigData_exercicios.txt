@@ -1,0 +1,59 @@
+Nome do dataset
+1. car.data
+2. Superior_20110930_pt.csv
+3. aposentados-022018.csv
+
+Descrição do conteúdo do dataset
+1. O banco de dados de avaliação de carros foi derivado de um modelo de decisão hierárquica simples, originalmente desenvolvido para a demonstração de DEX, M. Bohanec, V. Rajkovic: sistema especialista para a tomada de decisões. Sistemica 1 (1), pp. 145-157, 1990). 
+
+2. Implantação de campi universitários. Empreendimento pertencente a carteira do Anexo III do PPA 2012-2015. Programa 2032.Iniciativas 03GC, 0481, 0482 e 0484 - escala 1:2.500.000. Sistema...
+
+3. As informações disponíveis nesta consulta referem-se aos servidores aposentados do Poder Executivo Federal, não incluindo portanto, dados sobre servidores ativos pensionistas.
+
+Área (governamental, meteorologia, transporte, saúde, etc)
+1. transporte
+2. educação
+3. governamental
+
+Estrutura de organização dos dados
+1. 
+CAR car acceptability 
+. PRICE overall price 
+. . buying buying price 
+. . maint price of the maintenance 
+. TECH technical characteristics 
+. . COMFORT comfort 
+. . . doors number of doors 
+. . . persons capacity in terms of persons to carry 
+. . . lug_boot the size of luggage boot 
+. . safety estimated safety of the car 
+
+2. FID	
+UF	
+Codio_IBGE	
+Municipio	
+Unividade	
+Campus	
+Existencia	
+Situacao	
+the_geom
+
+3. 1) Servidores: NOME(60); CPF(11)(descaracterizado); MATRICULA(ORGAO(5)+MATRICULA(7)); NOME ÓRGÃO DE ORIGEM(40); SIGLA ÓRGÃO DE ORIGEM(10) ÓRGÃO VINCULADO(5); DESCRIÇÃO-CARGO-EMPREGO(40); CLASSE-CARGO(1); PADRÃO-CARGO(3); REFERENCIA-CARGO(2); NÍVEL_CARGO(3) ; DESCRIÇÃO DO TIPO DE APOSENTADORIA(27); FUNDAMENTAÇÃO LEGAL DA APOSENTADORIA(40); ATO DE APOSENTADORIA(60); DATA DA APOSENTADORIA(DDMMAA); INGRESSO NO SERVIÇO PÚBLICO(50); DATA DE INGRESSO NO SERVIÇO PÚBLICO(DDMMAA) e VALOR MENSAL DA APOSENTADORIA(14).
+
+Tamanho do dataset
+1.  51.9 KB
+2.  51.3 MB
+3. 441.3 KB
+
+URL para download
+1. http://archive.ics.uci.edu/ml/machine-learning-databases/car/car.data
+2. http://dados.gov.br/dataset/mpog_superior_20110930_pt/resource/bda3dffa-93c9-4a45-ad3e-3e1553f2967e
+3. http://dados.gov.br/dataset/aposentados-poder-executivo-federal/resource/9001bf6c-8d29-4eab-82ca-2d1a5a1294e9?inner_span=True
+
+Dois exemplos de aplicação usando o dataset
+1.1 Carro mais caro
+1.2 Quantidade de carros por capacidade de pessoas 
+2.1 Quantidade de universidades por Estado
+2.2 Quantidade de universidades por Situacao
+3.1 Servidor que mais recebe aposetadoria
+3.2 Quantidade de Servidores por Cargo
